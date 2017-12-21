@@ -1,0 +1,122 @@
+body{
+background: #eee  url(../img/bg.jpg) repeat;    
+height: 100%;    
+margin: 0;
+padding: 0;
+font: 13px "Arial", Times;
+color: #000;    
+}
+
+ol, ul{list-style:none;}
+
+a {text-decoration: none;}
+
+
+
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+}
+
+.text-right{text-align:right;}
+.text-left{text-align:left;}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {clear:both;}
+
+.left {float:left}
+.right {float:right}
+
+.center{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.panel-top{
+    width: 90%;
+    height: 322px;
+    border-top: 3px solid #CC3333;
+    background: #2A2B2C;
+     position: relative;
+    
+}
+
+
+.social{
+    float: left;
+    padding: 4px 0;
+}
+.social a{
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    vertical-align: middle;
+    background: url(../img/sprite-social.png) no-repeat center;
+    border-radius: 50%;
+    
+}
+
+
+.social a.s-fb{
+    background-position: 0 0;
+}
+
+.social a.s-drible{
+    background-position: -23px 0 ;
+}
+
+
+
+.social a.s-tw{
+    background-position: -46px 0 ;
+}
+
+.social a.s-mail{
+    background-position: -69px 0 ;
+}
+
+.social a.s-vimeo{
+    background-position: -92px 0 ;
+}
+
+.login{
+    padding-top: 7px;
+    float: right;
+}
+
+.login a,
+.login span{
+    color: #fff;
+}
+
+.login a:hover{text-decoration: underline};
+
+.bass {
+    
+
+}
+
+.coub {
+    float: right;
+    width: 90px;
+    height: 45px;
+    background: #c33 url(../img/cart.png) no-repeat 7px 7px;
+    border-radius: 0 0 10px 10px;
+    margin-left: 30px;
+
+}
+
+.coub a {
+    height: 45px;
+    display: block;
+    color: #fff;
+    padding: 14px 0px 0px 40px;
+}
+
